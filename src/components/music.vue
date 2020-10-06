@@ -3,7 +3,7 @@
     <input type="text" v-model="keyword"/>
     <button @click="searchData()">Search Artist</button>
 <br>
-  <b-card-group columns class="roe-m3">
+  <b-card-group columns class="row-m3">
       <b-card v-for="data in resultData" :key="data.artistName"
         :title="data.artistName"       
         img-top
